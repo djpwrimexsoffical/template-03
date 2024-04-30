@@ -1,0 +1,109 @@
+body {
+    background-image: url("Snapinsta.app_409125924_1483088068945508_7209439465249269652_n_1080.jpg" );
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    /* Tambahkan background-color dengan transparansi */
+    background-color: rgb(0, 0, 10); /* Nilai 0.5 untuk transparansi */
+    /* Animasi fade in */
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    background-color: rgba(19, 18, 18, 0.452);
+    margin-top: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    width: 300px;
+    /* Animasi scroll */
+    animation: scrollIn 1.5s ease-in-out;
+}
+
+@keyframes scrollIn {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: "Pacifico", cursive;
+    font-weight: normal;
+}
+
+p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: antiquewhite;
+}
+
+.bottom-info {
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: rgb(20, 19, 19);
+    color: antiquewhite;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* Animasi fade in untuk tombol */
+    animation: fadeInButton 3s ease-in-out;
+    /* Efek membesar saat tombol dihover */
+    transition: transform 0.3s ease;
+}
+
+@keyframes fadeInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: #191818;
+    transform: scale(1.1); /* Memperbesar tombol saat dihover */
+}
+
+
+@keyframes fadeInButton {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
